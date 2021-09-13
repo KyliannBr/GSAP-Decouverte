@@ -52,7 +52,7 @@ body {
 
 .container-titre {
     position: absolute;
-    top: 25vh;
+    top: 15vh;
     left: 13vw;
     display: flex;
     place-content: center;
@@ -63,6 +63,11 @@ body {
 .container-titre h2 {
     color: white;
     font-size: 4.5vh;
+}
+
+.container-titre h2 span {
+    position: relative;
+
 }
 
 .container-titre hr {
@@ -100,16 +105,17 @@ body {
 
 aside {
     position: absolute;
-    right: 5vw;
+    right: 2vw;
     top: 40%;
     height: 25vh;
-    width: 2vw;
+    width: fit-content;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 aside a {
+    position: relative;
     background-color: rgb(224, 218, 218);
     width: 10vh;
     height: 5vh;
